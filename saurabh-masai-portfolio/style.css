@@ -15,11 +15,6 @@
 
 :root {
   --bg-color: #0b0c10;
-  /* --bg-color: #1D63DC; */
-  /* --bg-color: #02319D; */
-
-  /* --second-bg-color:  #323946; */
-  /* --second-bg-color:  #262A56; */
   --second-bg-color: #1f2833;
   --text-color: #fff;
   --main-color: #ffd93d;
@@ -91,11 +86,15 @@ section {
   align-items: center;
 }
 
+.home-img{
+   display: flex;
+  justify-content: center;
+}
+
 .home-img img {
   width: 35vw;
-  /* need to fix my img */
-  /* animation: floatImage 4s ease-in-out infinite; */
   border: 2px solid linear-gradient(90deg, #f46b20, #ffd93d);
+ 
 }
 
 @keyframes floatImage {
@@ -659,12 +658,12 @@ span {
     transform: translate3d(0, -3px, 0) rotateZ(0.01deg);
   }
 }
-animation: sliderShape 5s linear infinite;
+/* animation: sliderShape 5s linear infinite;
   display: block;
   z-index: -1;
   -webkit-animation: sliderShape 5s linear infinite;
-  /* mix-blend-mode: color-dodge; */
-}
+  mix-blend-mode: color-dodge; */
+/* } */
 @keyframes sliderShape {
   0%,
   100% {
